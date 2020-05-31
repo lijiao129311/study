@@ -39,9 +39,6 @@ print(name)
 # b = float(input("请输入 ："))
 # print("input获取的内容: ",a+b)
 
-# a = input("请输入：")
-# b = input("请输入：")
-# print("两段字符的长度是：",len(a) + len(b))
 
 #元组，下标，从0开始编号
 # a = (1,2,3,4,"哈哈","哈哈","哈哈","哈哈","哈哈","嘻嘻",True,False)
@@ -133,11 +130,3 @@ print(a)
 
 # del a[0]
 
-"""
-联系：
-获取用户的个人信息，存储到字典中
-信息有：name,age,sex
-"""
-print("请输入个人的信息，name: ,age: ,sex: ")
-a = input()
-print(dict(a))
